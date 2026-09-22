@@ -48,8 +48,8 @@ namespace reprudoctor_de_MP3
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error al reproducir el archivo: " + ex.Message);
             }
-
-            }
+        }
     }
 }
